@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: transportationorderserver
-        image: ghcr.io/borjaVilallonga/tos
+        image: ghcr.io/borjavilallonga/tos
         ports:
         - containerPort: 8080
       imagePullSecrets:
